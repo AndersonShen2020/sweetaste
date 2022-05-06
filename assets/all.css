@@ -164,8 +164,9 @@
 }
 
 .content .product-list .card {
-  max-width: 300px;
+  width: 300px;
   margin-bottom: 20px;
+  text-align: center;
   position: relative;
 }
 
@@ -178,50 +179,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 300px;
-  height: 56px;
-  text-align: center;
+  font-size: 20px;
+  line-height: 48px;
   border: 1px solid #eaf0ed;
 }
 
 .content .product-list .card-title {
-  border-right: 1px solid #eaf0ed;
-  font: normal normal 300 20px/20px PingFang TC;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 173px;
-  height: 56px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .content .product-list .card-price {
-  font: normal normal 600 20px/24px PingFang TC;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 127px;
+  width: 130px;
+  border-left: 1px solid #eaf0ed;
 }
 
 .content .product-list .card-footer {
-  width: 300px;
-  height: 65px;
   background: #eaf0ed 0% 0% no-repeat padding-box;
-  border: 1px solid #eaf0ed;
-  opacity: 1;
-}
-
-.content .product-list .card-footer p {
-  text-align: center;
-  font: normal normal 600 24px/20px PingFang TC;
-  letter-spacing: 0px;
-  color: #3f5d45;
-  opacity: 1;
+  font-size: 24px;
+  line-height: 52px;
 }
 
 .content .product-list .card-special {
@@ -301,6 +278,8 @@
   margin: 0 auto;
   color: #3f5d45;
   background: #ffffff 0% 0% no-repeat padding-box;
+  font-family: PingFang TC;
+  font-weight: 600;
   opacity: 1;
 }
 /*# sourceMappingURL=all.css.map */

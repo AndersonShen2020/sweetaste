@@ -57,8 +57,9 @@
       justify-content: space-between;
       margin-left: auto;
       .card {
-        max-width: 300px;
+        width: 300px;
         margin-bottom: 20px;
+        text-align: center;
         position: relative;
         &-img {
           width: 300px;
@@ -66,38 +67,22 @@
         }
         &-body {
           display: flex;
-          width: 300px;
-          height: 56px;
-          text-align: center;
+          font-size: 20px;
+          line-height: 48px;
           border: 1px solid #eaf0ed;
         }
         &-title {
-          border-right: 1px solid #eaf0ed;
-          font: normal normal 300 20px/20px PingFang TC;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 173px;
-          height: 56px;
+          flex: 1;
         }
         &-price {
-          font: normal normal 600 20px/24px PingFang TC;
-          align-self: center;
-          width: 127px;
+          width: 130px;
+          border-left: 1px solid #eaf0ed;
         }
         &-footer {
-          width: 300px;
-          height: 65px;
           background: $color-secondary 0% 0% no-repeat padding-box;
-          border: 1px solid #eaf0ed;
-          opacity: 1;
-          p {
-            text-align: center;
-            font: normal normal 600 24px/20px PingFang TC;
-            letter-spacing: 0px;
-            color: $color-primary;
-            opacity: 1;
-          }
+          // font-fa: normal normal 600 24px/20px PingFang TC;
+          font-size: 24px;
+          line-height: 52px;
         }
         &-special {
           box-sizing: content-box;
