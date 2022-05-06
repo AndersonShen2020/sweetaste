@@ -1,0 +1,306 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu .navbar-item {
+  margin-right: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-menu .navbar-item:nth-last-child(2) {
+  margin-right: 79px;
+}
+
+.navbar-menu .navbar-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-menu .navbar-item a {
+  vertical-align: middle;
+  text-decoration: none;
+  color: #3f5d45;
+  font-weight: 600;
+}
+
+.navbar-menu .navbar-item a:hover {
+  text-decoration: underline;
+}
+
+.navbar-menu .navbar-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-menu .navbar-icon img {
+  vertical-align: middle;
+}
+
+.banner {
+  width: 940px;
+  height: 496px;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/student-week1/banner.png");
+  opacity: 1;
+}
+
+.content {
+  margin: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .product-menu {
+  width: 300px;
+}
+
+.content .product-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content .product-menu li {
+  text-align: center;
+  padding: 16px 64px;
+  font: normal normal 600 24px/40px PingFang TC;
+}
+
+.content .product-menu-border {
+  border: 1px solid #eaf0ed;
+}
+
+.content .product-menu-title {
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.content .product-menu .active {
+  background-color: #eaf0ed;
+}
+
+.content .product-img1 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-1.png);
+}
+
+.content .product-img2 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-2.png);
+}
+
+.content .product-img3 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-3.png);
+}
+
+.content .product-img4 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-4.png);
+}
+
+.content .product-img5 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-5.png);
+}
+
+.content .product-img6 {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-6.png);
+}
+
+.content .product-list {
+  width: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+}
+
+.content .product-list .card {
+  max-width: 300px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.content .product-list .card-img {
+  width: 300px;
+  height: 315px;
+}
+
+.content .product-list .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 56px;
+  text-align: center;
+  border: 1px solid #eaf0ed;
+}
+
+.content .product-list .card-title {
+  border-right: 1px solid #eaf0ed;
+  font: normal normal 300 20px/20px PingFang TC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 173px;
+  height: 56px;
+}
+
+.content .product-list .card-price {
+  font: normal normal 600 20px/24px PingFang TC;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 127px;
+}
+
+.content .product-list .card-footer {
+  width: 300px;
+  height: 65px;
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+  border: 1px solid #eaf0ed;
+  opacity: 1;
+}
+
+.content .product-list .card-footer p {
+  text-align: center;
+  font: normal normal 600 24px/20px PingFang TC;
+  letter-spacing: 0px;
+  color: #3f5d45;
+  opacity: 1;
+}
+
+.content .product-list .card-special {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+  position: absolute;
+  width: 16px;
+  height: 88px;
+  left: 20px;
+  padding: 10px;
+  font: normal normal 600 16px/20px PingFang TC;
+}
+
+.content .product-list .card-favorite {
+  position: absolute;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png);
+  right: 22px;
+  top: 19px;
+  width: 20px;
+  height: 19px;
+}
+
+.content .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content .pagination-item {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #eaf0ed;
+  font: normal normal 300 20px/20px PingFang TC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .pagination .active {
+  font: normal normal 600 20px/20px PingFang TC;
+  color: #eaf0ed;
+  background-color: #3f5d45;
+}
+
+.content .pagination .icon-left {
+  background-position: center;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_left.png);
+  background-repeat: no-repeat;
+}
+
+.content .pagination .icon-right {
+  background-position: center;
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_right.png);
+  background-repeat: no-repeat;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  color: #3f5d45;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+/*# sourceMappingURL=all.css.map */

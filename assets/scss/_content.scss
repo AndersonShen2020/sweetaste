@@ -1,0 +1,153 @@
+.content {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  .product {
+    display: flex;
+    &-menu {
+      width: 300px;
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        text-align: center;
+        padding: 16px 64px;
+        font: normal normal 600 24px/40px PingFang TC;
+      }
+      &-border {
+        border: 1px solid #eaf0ed;
+      }
+      &-title {
+        background-color: $color-primary;
+        color: $color-secondary;
+      }
+      .active {
+        background-color: $color-secondary;
+      }
+    }
+    &-img1 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-1.png);
+    }
+    &-img2 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-2.png);
+    }
+
+    &-img3 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-3.png);
+    }
+
+    &-img4 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-4.png);
+    }
+
+    &-img5 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-5.png);
+    }
+
+    &-img6 {
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/p-6.png);
+    }
+
+    &-list {
+      width: 620px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-left: auto;
+      .card {
+        max-width: 300px;
+        margin-bottom: 20px;
+        position: relative;
+        &-img {
+          width: 300px;
+          height: 315px;
+        }
+        &-body {
+          display: flex;
+          width: 300px;
+          height: 56px;
+          text-align: center;
+          border: 1px solid #eaf0ed;
+        }
+        &-title {
+          border-right: 1px solid #eaf0ed;
+          font: normal normal 300 20px/20px PingFang TC;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 173px;
+          height: 56px;
+        }
+        &-price {
+          font: normal normal 600 20px/24px PingFang TC;
+          align-self: center;
+          width: 127px;
+        }
+        &-footer {
+          width: 300px;
+          height: 65px;
+          background: $color-secondary 0% 0% no-repeat padding-box;
+          border: 1px solid #eaf0ed;
+          opacity: 1;
+          p {
+            text-align: center;
+            font: normal normal 600 24px/20px PingFang TC;
+            letter-spacing: 0px;
+            color: $color-primary;
+            opacity: 1;
+          }
+        }
+        &-special {
+          box-sizing: content-box;
+          background-color: $color-primary;
+          color: $color-secondary;
+          position: absolute;
+          width: 16px;
+          height: 88px;
+          left: 20px;
+          padding: 10px;
+          font: normal normal 600 16px/20px PingFang TC;
+        }
+        &-favorite {
+          position: absolute;
+          background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png);
+          right: 22px;
+          top: 19px;
+          width: 20px;
+          height: 19px;
+        }
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    &-item {
+      width: 60px;
+      height: 60px;
+      border: 1px solid #eaf0ed;
+      font: normal normal 300 20px/20px PingFang TC;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .active {
+      font: normal normal 600 20px/20px PingFang TC;
+      color: $color-secondary;
+      background-color: $color-primary;
+    }
+    .icon-left {
+      background-position: center;
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_left.png);
+      background-repeat: no-repeat;
+    }
+
+    .icon-right {
+      background-position: center;
+      background-image: url(https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_right.png);
+      background-repeat: no-repeat;
+    }
+  }
+}

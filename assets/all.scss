@@ -1,0 +1,21 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+@import "scss/variable";
+@import "scss/header";
+@import "scss/banner";
+@import "scss/content";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  // outline: 1px solid rgb(215, 146, 19);
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  color: $color-primary;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
